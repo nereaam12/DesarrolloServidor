@@ -1,6 +1,6 @@
 <?php
 
-$datos = array()
+$datos = array();
 
 if (isset($_GET)){
     $datos = $_GET;
