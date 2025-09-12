@@ -1,6 +1,6 @@
 <?php
 
-$puesto = [
+$posicion = [
     1 => "primero",
     3 => "segundo",
     5 => "tercero",
@@ -11,8 +11,10 @@ $puesto = [
 
 $sum = 0;
 
-foreach ($puesto as $num => $puest){
-    if($puest == "primero" || $puest == "tercero" || $puest == "quinto"){
+$puesto = ;
+
+foreach ($puesto as $num => $p){
+    if($p == "primero" || $p == "tercero" || $p == "quinto"){
         $sum += $num;
         echo " Estas en una posicion impar $sum <br> ";
         if($sum > 20){
@@ -25,7 +27,7 @@ foreach ($puesto as $num => $puest){
         $impar = true;
         $par = false;
     }
-    elseif ($puest == "segundo" || $puest == "cuarto" || $puest == "sexto"){
+    elseif ($p == "segundo" || $p == "cuarto" || $p == "sexto"){
         $sum += $num;
         echo " Estas en una posicion par $sum <br> ";
         if($sum > 20){
