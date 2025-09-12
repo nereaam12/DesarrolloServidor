@@ -4,7 +4,7 @@ $valores = [];
 
 
 if(empty($_GET)) {
-    echo "No se ha recibido ningún dato o es un valor nulo<br>";
+    echo "Se ha recibido valor nulo<br>";
 } else {
     foreach ($_GET as $clave => $valor) {
         $valores[$clave] = $valor;
