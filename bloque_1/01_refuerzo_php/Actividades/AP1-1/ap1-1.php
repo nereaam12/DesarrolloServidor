@@ -1,10 +1,11 @@
 <?php
 
-$datos = [];
+$datos = array();
 
-if (!empty($_GET)) {
+if (isset($_GET)) {
     $datos = $_GET;
 
+    var_dump($datos);
     foreach ($datos as $clave => $valor) {
         echo "Se ha recibido $valor para la clave $clave.<br>";
     }
